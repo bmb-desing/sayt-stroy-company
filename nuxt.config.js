@@ -1,4 +1,6 @@
 module.exports = {
+    cache: true,
+    loading: false,
   /*
   ** Headers of the page
   */
