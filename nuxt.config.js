@@ -18,7 +18,10 @@ module.exports = {
   },
   plugins: [
   ],
-  css: ['~/assets/css/main.css'],
+  css: [
+      '~/assets/css/main.css',
+      { src: '~/assets/sass/main.sass', lang: 'sass' }
+  ],
   /*
   ** Global CSS
   /*
